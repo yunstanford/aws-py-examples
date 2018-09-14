@@ -169,3 +169,16 @@ def main():
     loop.run_until_complete(test_cloud_directory())
 
 main()
+
+# Latency numbers for get_object_information + get_object_attributes
+# $ python3 aws_cloud_directory.py
+# [ Retrieving Metric, takes 0.06780076026916504 sec]
+# [ Retrieving Metric, takes 0.06684064865112305 sec]
+# [ Retrieving Metric, takes 0.07030677795410156 sec]
+# [ Retrieving Metric, takes 0.06939697265625 sec]
+# [ Retrieving Metric, takes 0.07062506675720215 sec]
+# [ Retrieving Metric, takes 0.07235836982727051 sec]
+# [ Retrieving Metric, takes 0.06737804412841797 sec]
+# [ Retrieving Metric, takes 0.07101607322692871 sec]
+# [ Retrieving Metric, takes 0.06745386123657227 sec]
+# [ Retrieving Metric, takes 0.06923484802246094 sec]
